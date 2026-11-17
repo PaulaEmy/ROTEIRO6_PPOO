@@ -1,0 +1,8 @@
+br\com\roteiro6\Main.class
+br\com\roteiro6\config\HibernateUtil.class
+br\com\roteiro6\model\Categoria.class
+br\com\roteiro6\repository\HibernateLivroRepository.class
+br\com\roteiro6\repository\HibernateLivroRepository$Operacao.class
+br\com\roteiro6\model\Autor.class
+br\com\roteiro6\model\Livro.class
+br\com\roteiro6\repository\LivroRepository.class

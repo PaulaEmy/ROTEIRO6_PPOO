@@ -1,0 +1,8 @@
+classpath:C:\Users\Tamay\.m2\repository\org\hibernate\orm\hibernate-core\7.2.0.Final\hibernate-core-7.2.0.Final.jar	14406280:1765568332000
+classpath:C:\Users\Tamay\.m2\repository\jakarta\persistence\jakarta.persistence-api\3.2.0\jakarta.persistence-api-3.2.0.jar	195939:1775265659309
+classpath:C:\Users\Tamay\.m2\repository\jakarta\transaction\jakarta.transaction-api\2.0.1\jakarta.transaction-api-2.0.1.jar	28607:1774465870012
+classpath:C:\Users\Tamay\.m2\repository\com\mysql\mysql-connector-j\9.5.0\mysql-connector-j-9.5.0.jar	2602851:1761518649000
+classpath:C:\Users\Tamay\.m2\repository\com\google\protobuf\protobuf-java\4.31.1\protobuf-java-4.31.1.jar	1873183:1748459159000
+classpath:C:\Users\Tamay\.m2\repository\org\slf4j\slf4j-simple\2.0.17\slf4j-simple-2.0.17.jar	15716:1740501810000
+classpath:C:\Users\Tamay\.m2\repository\org\slf4j\slf4j-api\2.0.17\slf4j-api-2.0.17.jar	69908:1774465869129
+classpath:C:\Users\Tamay\.m2\repository\io\github\cdimascio\dotenv-java\3.2.0\dotenv-java-3.2.0.jar	18777:1740242095000

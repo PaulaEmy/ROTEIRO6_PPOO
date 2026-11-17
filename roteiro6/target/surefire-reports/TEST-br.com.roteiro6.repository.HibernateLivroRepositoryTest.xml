@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="br.com.roteiro6.repository.HibernateLivroRepositoryTest" time="4.146" tests="2" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="25"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Tamay\Documents\GitHub\roteiro6\target\test-classes;C:\Users\Tamay\Documents\GitHub\roteiro6\target\classes;C:\Users\Tamay\.m2\repository\org\hibernate\orm\hibernate-core\7.2.0.Final\hibernate-core-7.2.0.Final.jar;C:\Users\Tamay\.m2\repository\jakarta\persistence\jakarta.persistence-api\3.2.0\jakarta.persistence-api-3.2.0.jar;C:\Users\Tamay\.m2\repository\jakarta\transaction\jakarta.transaction-api\2.0.1\jakarta.transaction-api-2.0.1.jar;C:\Users\Tamay\.m2\repository\org\jboss\logging\jboss-logging\3.6.1.Final\jboss-logging-3.6.1.Final.jar;C:\Users\Tamay\.m2\repository\org\hibernate\models\hibernate-models\1.0.1\hibernate-models-1.0.1.jar;C:\Users\Tamay\.m2\repository\com\fasterxml\classmate\1.7.1\classmate-1.7.1.jar;C:\Users\Tamay\.m2\repository\net\bytebuddy\byte-buddy\1.17.8\byte-buddy-1.17.8.jar;C:\Users\Tamay\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\4.0.4\jakarta.xml.bind-api-4.0.4.jar;C:\Users\Tamay\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.4\jakarta.activation-api-2.1.4.jar;C:\Users\Tamay\.m2\repository\org\glassfish\jaxb\jaxb-runtime\4.0.6\jaxb-runtime-4.0.6.jar;C:\Users\Tamay\.m2\repository\org\glassfish\jaxb\jaxb-core\4.0.6\jaxb-core-4.0.6.jar;C:\Users\Tamay\.m2\repository\org\eclipse\angus\angus-activation\2.0.3\angus-activation-2.0.3.jar;C:\Users\Tamay\.m2\repository\org\glassfish\jaxb\txw2\4.0.6\txw2-4.0.6.jar;C:\Users\Tamay\.m2\repository\com\sun\istack\istack-commons-runtime\4.1.2\istack-commons-runtime-4.1.2.jar;C:\Users\Tamay\.m2\repository\jakarta\inject\jakarta.inject-api\2.0.1\jakarta.inject-api-2.0.1.jar;C:\Users\Tamay\.m2\repository\org\antlr\antlr4-runtime\4.13.2\antlr4-runtime-4.13.2.jar;C:\Users\Tamay\.m2\repository\com\mysql\mysql-connector-j\9.5.0\mysql-connector-j-9.5.0.jar;C:\Users\Tamay\.m2\repository\com\google\protobuf\protobuf-java\4.31.1\protobuf-java-4.31.1.jar;C:\Users\Tamay\.m2\repository\org\slf4j\slf4j-simple\2.0.17\slf4j-simple-2.0.17.jar;C:\Users\Tamay\.m2\repository\org\slf4j\slf4j-api\2.0.17\slf4j-api-2.0.17.jar;C:\Users\Tamay\.m2\repository\io\github\cdimascio\dotenv-java\3.2.0\dotenv-java-3.2.0.jar;C:\Users\Tamay\.m2\repository\com\h2database\h2\2.3.232\h2-2.3.232.jar;C:\Users\Tamay\.m2\repository\org\junit\jupiter\junit-jupiter\5.12.2\junit-jupiter-5.12.2.jar;C:\Users\Tamay\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.12.2\junit-jupiter-api-5.12.2.jar;C:\Users\Tamay\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Tamay\.m2\repository\org\junit\platform\junit-platform-commons\1.12.2\junit-platform-commons-1.12.2.jar;C:\Users\Tamay\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Tamay\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.12.2\junit-jupiter-params-5.12.2.jar;C:\Users\Tamay\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.12.2\junit-jupiter-engine-5.12.2.jar;C:\Users\Tamay\.m2\repository\org\junit\platform\junit-platform-engine\1.12.2\junit-platform-engine-1.12.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="25"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-25.0.2\bin"/>
+    <property name="sun.java.command" value="C:\Users\Tamay\AppData\Local\Temp\surefire5312187058809868622\surefirebooter-20261117180258412_3.jar C:\Users\Tamay\AppData\Local\Temp\surefire5312187058809868622 2026-11-17T18-02-58_192-jvmRun1 surefire-20261117180258412_1tmp surefire_0-20261117180258412_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Tamay\Documents\GitHub\roteiro6\target\test-classes;C:\Users\Tamay\Documents\GitHub\roteiro6\target\classes;C:\Users\Tamay\.m2\repository\org\hibernate\orm\hibernate-core\7.2.0.Final\hibernate-core-7.2.0.Final.jar;C:\Users\Tamay\.m2\repository\jakarta\persistence\jakarta.persistence-api\3.2.0\jakarta.persistence-api-3.2.0.jar;C:\Users\Tamay\.m2\repository\jakarta\transaction\jakarta.transaction-api\2.0.1\jakarta.transaction-api-2.0.1.jar;C:\Users\Tamay\.m2\repository\org\jboss\logging\jboss-logging\3.6.1.Final\jboss-logging-3.6.1.Final.jar;C:\Users\Tamay\.m2\repository\org\hibernate\models\hibernate-models\1.0.1\hibernate-models-1.0.1.jar;C:\Users\Tamay\.m2\repository\com\fasterxml\classmate\1.7.1\classmate-1.7.1.jar;C:\Users\Tamay\.m2\repository\net\bytebuddy\byte-buddy\1.17.8\byte-buddy-1.17.8.jar;C:\Users\Tamay\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\4.0.4\jakarta.xml.bind-api-4.0.4.jar;C:\Users\Tamay\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.4\jakarta.activation-api-2.1.4.jar;C:\Users\Tamay\.m2\repository\org\glassfish\jaxb\jaxb-runtime\4.0.6\jaxb-runtime-4.0.6.jar;C:\Users\Tamay\.m2\repository\org\glassfish\jaxb\jaxb-core\4.0.6\jaxb-core-4.0.6.jar;C:\Users\Tamay\.m2\repository\org\eclipse\angus\angus-activation\2.0.3\angus-activation-2.0.3.jar;C:\Users\Tamay\.m2\repository\org\glassfish\jaxb\txw2\4.0.6\txw2-4.0.6.jar;C:\Users\Tamay\.m2\repository\com\sun\istack\istack-commons-runtime\4.1.2\istack-commons-runtime-4.1.2.jar;C:\Users\Tamay\.m2\repository\jakarta\inject\jakarta.inject-api\2.0.1\jakarta.inject-api-2.0.1.jar;C:\Users\Tamay\.m2\repository\org\antlr\antlr4-runtime\4.13.2\antlr4-runtime-4.13.2.jar;C:\Users\Tamay\.m2\repository\com\mysql\mysql-connector-j\9.5.0\mysql-connector-j-9.5.0.jar;C:\Users\Tamay\.m2\repository\com\google\protobuf\protobuf-java\4.31.1\protobuf-java-4.31.1.jar;C:\Users\Tamay\.m2\repository\org\slf4j\slf4j-simple\2.0.17\slf4j-simple-2.0.17.jar;C:\Users\Tamay\.m2\repository\org\slf4j\slf4j-api\2.0.17\slf4j-api-2.0.17.jar;C:\Users\Tamay\.m2\repository\io\github\cdimascio\dotenv-java\3.2.0\dotenv-java-3.2.0.jar;C:\Users\Tamay\.m2\repository\com\h2database\h2\2.3.232\h2-2.3.232.jar;C:\Users\Tamay\.m2\repository\org\junit\jupiter\junit-jupiter\5.12.2\junit-jupiter-5.12.2.jar;C:\Users\Tamay\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.12.2\junit-jupiter-api-5.12.2.jar;C:\Users\Tamay\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Tamay\.m2\repository\org\junit\platform\junit-platform-commons\1.12.2\junit-platform-commons-1.12.2.jar;C:\Users\Tamay\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Tamay\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.12.2\junit-jupiter-params-5.12.2.jar;C:\Users\Tamay\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.12.2\junit-jupiter-engine-5.12.2.jar;C:\Users\Tamay\.m2\repository\org\junit\platform\junit-platform-engine\1.12.2\junit-platform-engine-1.12.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Tamay"/>
+    <property name="user.language" value="pt"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-01-20"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-25.0.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Tamay\Documents\GitHub\roteiro6"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Tamay\AppData\Local\Temp\surefire5312187058809868622\surefirebooter-20261117180258412_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="25.0.2+10-LTS-69"/>
+    <property name="user.name" value="Tamay"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Tamay\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Tamay\AppData\Local\Temp\"/>
+    <property name="java.version" value="25.0.2"/>
+    <property name="user.dir" value="C:\Users\Tamay\Documents\GitHub\roteiro6"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-25.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\nodejs\;C:\apache-maven-3.10.0\bin;C:\Program Files\WSL\;C:\Program Files\GitHub CLI\;C:\Users\Tamay\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\Tamay\AppData\Local\Programs\Python\Python313\;C:\Users\Tamay\AppData\Local\Programs\Python\Launcher\;C:\Users\Tamay\AppData\Local\Microsoft\WindowsApps;C:\Users\Tamay\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Tamay\AppData\Local\GitHubDesktop\bin;C:\Program Files\JetBrains\PyCharm 2024.3.5\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2024.3.5\bin;C:\Users\Tamay\AppData\Local\Programs\Ollama;C:\Users\Tamay\AppData\Local\Python\bin;C:\Users\Tamay\AppData\Local\spicetify;C:\Users\Tamay\AppData\Local\Android\Sdk\platform-tools;C:\Users\Tamay\AppData\Local\Programs\Microsoft VS Code\bin\copilot-shim;C:\Users\Tamay\AppData\Roaming\npm;C:\apache-maven-3.10.0\bin;;c:\Users\Tamay\AppData\Local\Programs\Microsoft VS Code\69047191fc\resources\app\node_modules.asar.unpacked\@vscode\ripgrep-universal\bin\win32-x64;c:\Users\Tamay\AppData\Local\Programs\Microsoft VS Code\69047191fc\resources\app\node_modules.asar.unpacked\@github\copilot-sdk-win32-x64\ripgrep\bin\win32-x64;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.0.2+10-LTS-69"/>
+    <property name="stdin.encoding" value="Cp1252"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="69.0"/>
+  </properties>
+  <testcase name="persisteLivroECarregaRelacionamentos" classname="br.com.roteiro6.repository.HibernateLivroRepositoryTest" time="0.924">
+    <system-out><![CDATA[Hibernate: drop table if exists autor cascade 
+Hibernate: drop table if exists categoria cascade 
+Hibernate: drop table if exists livro cascade 
+Hibernate: create table autor (id bigint generated by default as identity, nome varchar(100) not null, primary key (id))
+Hibernate: create table categoria (id bigint generated by default as identity, nome varchar(100) not null, primary key (id))
+Hibernate: create table livro (id bigint generated by default as identity, id_autor bigint not null, id_categoria bigint not null, versao bigint, isbn varchar(20), titulo varchar(150) not null, primary key (id))
+Hibernate: alter table if exists livro add constraint FK7v25m35cptaoro3f0xq6chy37 foreign key (id_autor) references autor
+Hibernate: alter table if exists livro add constraint FKsytxfd70p7l51i2cwndj1d21m foreign key (id_categoria) references categoria
+Hibernate: insert into autor (nome,id) values (?,default)
+Hibernate: insert into categoria (nome,id) values (?,default)
+Hibernate: select a1_0.id,a1_0.nome from autor a1_0 where a1_0.id=?
+Hibernate: select c1_0.id,c1_0.nome from categoria c1_0 where c1_0.id=?
+Hibernate: insert into livro (id_autor,id_categoria,isbn,titulo,versao,id) values (?,?,?,?,?,default)
+Hibernate: select l1_0.id,l1_0.id_autor,a1_0.id,a1_0.nome,l1_0.id_categoria,c1_0.id,c1_0.nome,l1_0.isbn,l1_0.titulo,l1_0.versao from livro l1_0 join autor a1_0 on a1_0.id=l1_0.id_autor join categoria c1_0 on c1_0.id=l1_0.id_categoria where l1_0.id=?
+Hibernate: delete from livro l1_0
+Hibernate: delete from autor a1_0
+Hibernate: delete from categoria c1_0
+]]></system-out>
+    <system-err><![CDATA[nov. 17, 2026 6:02:59 PM org.hibernate.Version logVersion
+INFO: HHH000001: Hibernate ORM core version 7.2.0.Final
+nov. 17, 2026 6:03:00 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProvider configure
+WARN: HHH10001002: Using built-in connection pool (not intended for production use)
+nov. 17, 2026 6:03:00 PM org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl constructDialect
+WARN: HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+nov. 17, 2026 6:03:00 PM org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator logConnectionInfo
+INFO: HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:biblioteca6;DB_CLOSE_DELAY=-1]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.3.232
+	Default catalog/schema: BIBLIOTECA6/PUBLIC
+	Autocommit mode: false
+	Isolation level: READ_COMMITTED
+	JDBC fetch size: 100
+	Pool: DriverManagerConnectionProvider
+	Minimum pool size: 1
+	Maximum pool size: 20
+nov. 17, 2026 6:03:02 PM org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService
+INFO: HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+]]></system-err>
+  </testcase>
+  <testcase name="fazRollbackQuandoRelacionamentoObrigatorioEstaAusente" classname="br.com.roteiro6.repository.HibernateLivroRepositoryTest" time="0.013">
+    <system-out><![CDATA[Hibernate: delete from livro l1_0
+Hibernate: delete from autor a1_0
+Hibernate: delete from categoria c1_0
+]]></system-out>
+  </testcase>
+</testsuite>
